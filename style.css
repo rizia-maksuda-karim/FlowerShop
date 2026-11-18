@@ -1,0 +1,642 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.body{
+    background-color: #F5F8FF;
+
+}
+.mainClass{
+    max-width: 1140px;
+    /* width: 100%; */
+    margin: 0 auto;
+   
+}
+
+.dark02{
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.bg-letter{
+  background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* navbar */
+.navClass{
+    /* display:grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* width: 100%; */
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    max-width: 135px;
+    margin-top: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+ li{
+    list-style: none;
+
+}
+.navLi a{
+    color: #8987A1; 
+
+
+}
+.cartlogo {
+    max-width: 26px;
+    max-height: 26px;
+
+}
+.naULClass{
+    margin-top: 53px;
+    max-width: 415px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap: 40px;
+}
+.cartClass{
+    display: flex;
+}
+
+
+/* bannerSection */
+
+.bannerSectionClass{
+    /* w-[1140px] h-[461px] mt-[109px] grid grid-cols-2 p */
+    max-width: 1140px;
+    max-height: 461px;
+    margin-top: 109px;
+    display:flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    padding: 0px;
+}
+.bannerDescrip{
+    /* w-[570px] h-[299px] */
+    max-width: 570px;
+    max-height: 299px;
+}
+.bannerheading{
+    /* font-bold text-[4.06rem]  */
+    font-weight: 700;
+    font-size: 4.06rem;
+    max-width: 570px;
+    margin-bottom: 0px;
+}
+.spanFresh{
+    /* text-[] */
+    color: #E95A08 ;
+}
+.spanflower{
+    /* gap-0 m-0 noto-serif-font  font-bold text-[4.06rem]  text-[] */
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 4.06rem;
+    color: #E95A08;
+}
+.bannaerPara{
+    padding: 0px;
+    margin-top: 13px;
+     font-size: 1.375rem;
+}
+
+.heroImgclass{
+    max-width: 570px;
+}
+.imageContainer{
+    max-width: 570px;
+    max-height: 355px;
+    margin-top: 90px;
+}
+
+
+
+/* puroductSection */
+.productClass{
+    max-width: 1140px;
+    max-height: 1186px;
+}
+.proDivCls{
+    margin-bottom: 49px;
+    text-align: center;
+}
+.proHeadr{
+    font-weight:bold;
+    font-size: 3.1rem;
+    margin-bottom: 0px;
+}
+.spanOur{
+    color: #E95A08;
+
+}
+.proPara{
+    /* padding-top: 16px;
+    padding-left: 126px;
+    padding-right: 126px; */
+    font-size: 1.375rem;
+
+}
+
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 8%;
+    column-gap: 1.9%;
+    margin-top: 8%;
+   
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardImg{
+    width: 100%; 
+}
+.cardHeader{
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1.375rem;
+    text-align: center;
+}
+.cardPara{
+    font-weight: bold;
+    font-size: 1.375rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.cardButton {
+
+     max-width: 270px;
+    /* height: 50px;  */
+    font-weight: 600;
+    color: white;
+    background-color: #E95A08;
+    font-size: .8rem;
+    margin-bottom: 30px;
+    padding: 4% 25%;
+    border: none;
+}
+
+
+/* flowers and plants lover */
+.flowrLoverSec{
+    margin-top: 210px;
+    max-width: 1140px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    justify-content:space-between; */
+
+}
+.loverImg{
+    max-width:100%;
+    margin-top: 210px;
+    
+}
+.Lovbadge{
+    position: relative;
+    width: 286px;
+  height: 286px;
+  right: -350px;
+  bottom: 730px;
+}
+.loverDescrip{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-left: 60px;
+    margin-top: 148px;
+    /* max-width: 540px; */
+    /* max-height: 521px; */
+}
+.loverHeading{
+    font-weight: 700;
+    max-width: 540px;
+    font-size: 3.125rem;
+    margin-bottom: 0px;
+}
+.loverList{
+    margin-top: 14px;
+    max-width: 540px;
+    height: 221px;
+
+}
+.loverList li{
+     list-style:disc;   
+}
+
+.loverLi{
+    margin-bottom: 10px;
+    font-size: 1.375rem;
+
+}
+
+/* leatestDeal */
+.headingClass{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+.spanDeals{
+    color: #E95A08;
+}
+.letestDealPara{
+   
+    /* display: flex;
+    justify-content: center; */
+    /* max-width: 888px; */
+    text-align: center;
+}
+.letestDealClass{
+    /* max-width: 1200px; */
+   margin-top: -150px;
+    margin-bottom: 120px;
+
+}
+
+.item01,.item01 a {
+  position: relative;
+  overflow: hidden; 
+  color: white;
+  border-radius: 14px;
+  max-width: 367px;
+  width: 100%;
+  height: 200px;
+  background: none;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item01::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(assets/deal-bloom.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1; 
+  border-radius: 14px;
+  z-index: -1;
+}
+
+.Item02, .Item02 a {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-radius: 14px;
+    max-width: 367px;
+    height: 200px;
+    background: none;
+    font-weight: 700;
+  text-align: center;
+}
+
+.Item02::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/deal-ana.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1; /* fully visible background with dark overlay */
+    z-index: -1;
+}
+
+
+.Item03, .Item03 a {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-radius: 14px;
+   max-width: 740px;
+    background: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+.hItem03{
+    margin-top: 25px;
+}
+.leastBtn{
+    margin: 0px;
+    text-decoration:underline;
+}
+
+.Item03::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    border-radius: 14px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/deal-zabo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+}
+
+.dealContainer{
+    max-width: 1140px;
+    /* height: 423px; */
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr) ;
+ }
+
+
+
+
+
+
+
+
+/* join the colorful bunch  */
+.colorfulSection{
+    background-image: url(assets/news-letter-bg.png);background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    margin-top: 120px;
+}
+
+.colorfulHeaderCls{
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: white;
+
+}
+
+.colorInp{
+    background:white;
+    display: flex;
+    gap: 0px;
+    width: 53%;
+    height: 12%;
+    margin-right: 0px; 
+   
+   
+}
+.ColorBtn{
+    background-color:#E95A08 ;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 3% 4%;
+    font-size: 1.11rem;
+    margin-left: 0px;
+}
+input[type="email"]{
+    width: 100%;
+}
+
+
+/* footerSection */
+.footerSec{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 1140px;
+    margin: 50px auto; 
+}
+.footerXClass{
+    max-width: 359px;
+}
+.footerImg{
+    width: 135px;
+    height: 81px;
+}
+.footerPara{
+    margin-top: 16px;
+    max-width: 359px;
+    max-height: 81px;
+    font-size: 1rem;  
+}
+.foterDivClas{
+    max-width: 200px;
+    /* max-height: 248px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.fotterUl{
+    gap: 30px;
+    list-style: none;
+
+}
+.fotterUl li{
+    margin-bottom: 20px;
+}
+.footerDivIcon{
+    max-width: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.IconX{
+    margin-top: 8px;
+    width: 26px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    body{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .proPara{
+        padding-right: 3%;
+    }
+    .navClass{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .naULClass{
+        width: 100%;
+        margin-left: 130px;
+    }
+    .hid{
+        display:none;
+    }
+    .cartClass{
+        margin-right: 50%;
+    }
+
+    .headingClass{
+        margin-top: 200px;
+    }
+    .heroImgclass{
+        width: 100%;
+    }
+
+.bannerSectionClass{
+     flex-direction: column-reverse;    
+}
+.bannerDescrip{
+    width: 361px;
+}
+
+.bannerheading{
+    font-size: 25px;
+}
+.spanflower{
+    font-size: 25px;
+}
+
+.bannaerPara{
+    font-size: 14px;
+}
+
+
+.cardContainer{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 9%;
+    text-align: center;
+
+}
+.cards{
+    max-width: 170px;
+    height: 320px;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+   
+.cardButton{
+    padding-left: 20%;
+}
+
+.flowrLoverSec{
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 41px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.loverImg{
+    margin-top: 750px;
+}
+.loverDescrip{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.loverHeading{
+    font-size: 30px;
+}
+.loverList{
+   margin-left: 5px;
+    padding: 0px;
+}
+.loverLi{
+    font-size: 1rem;
+}
+
+.bg-letter{
+    width: 393px;
+    
+}
+.colorfulSection{
+    margin-top: 170px;
+     width: 100%;
+    height: 250px;
+    margin-left: 0px;
+}
+.ColorBtn{
+     padding: 2% 6%;
+}
+.colorfulHeaderCls{
+    font-size: 1.8rem;
+}
+.colorInp{
+    width: 100%;
+}
+.footerXClass{
+    margin-bottom: 20px;
+}
+.footerSec{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.fotterUl{
+ margin-top: -5px;
+ padding: 0px;
+}
+.dealContainer{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.dealContainer{
+    grid-template-columns: repeat(1, 1fr);
+}  
+.Item03{
+    margin-top: 20px;
+    width:98%;
+    height: 150%;
+}
+.cartClass a{
+    width: 100px;
+}
+.cartlogo{
+    margin-left: -35px;
+}
+    }
+    
